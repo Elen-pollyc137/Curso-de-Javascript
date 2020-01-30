@@ -12,3 +12,4 @@ const resultado = alunos.map(a => a.nota).reduce(function(acumulador, atual) {
 }, 0)
 
 console.log(resultado)
+//passar por todos os parametos 
