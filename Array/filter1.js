@@ -6,4 +6,4 @@ const produto = [
 ]
 console.log(produto.filter(function(p){
     return p.preco
-}))
+}))//o filter te a importancia de fitrar informacoes
