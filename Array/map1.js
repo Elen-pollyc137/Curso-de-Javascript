@@ -13,3 +13,4 @@ const paraDinheiro = e => `R$ ${parseFloat(e).toFixed(2).replace('.', ',')}`
 
 resultado = nums.map(soma10).map(triplo).map(paraDinheiro)
 console.log(resultado)
+//e um mapeamento de entrega de array
