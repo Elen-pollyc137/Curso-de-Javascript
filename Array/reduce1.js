@@ -1,3 +1,4 @@
+//o parametro da funcao reduce e passado pra proxima interacao
 const alunos = [
     { nome: 'João', nota: 7.3, bolsista: false },
     { nome: 'Maria', nota: 9.2, bolsista: true },
