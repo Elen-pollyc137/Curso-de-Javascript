@@ -7,3 +7,7 @@ const produto = [
 console.log(produto.filter(function(p){
     return p.preco
 }))//o filter te a importancia de fitrar informacoes
+
+const caro = produto => produto.preco >= 500
+const fragil = produto => produto.fragil
+console.log(produto.filter(caro).filter(fragil))
