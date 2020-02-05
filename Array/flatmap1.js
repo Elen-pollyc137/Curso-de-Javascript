@@ -32,3 +32,4 @@ Array.prototype.flatMap = function(callback) {
 
 const notas2 = escola.flatMap(getNotasDaTurma)
 console.log(notas2)
+//uma matris para concatenar
