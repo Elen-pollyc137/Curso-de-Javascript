@@ -8,4 +8,10 @@ const passo2 = (ctx, next) =>{
     ctx.valor2 = 'mid2'
     next()
 }
-const passo3 = ctx => ctx.valor3 = 'mid'
+const passo3 = ctx => ctx.valor3 = 'mid3'
+
+const exec = (ctx, ...middlewares) =>{
+    const execPasso = indice => {
+        middlewares && indice < middlewares.length
+    }
+}
