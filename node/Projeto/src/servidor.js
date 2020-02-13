@@ -1,8 +1,8 @@
 const porta = 3003
 
-const express = require('express')
+const express = require('../node_modules/express')
 const app = express()
-const bodyParser = require('body-parser')
+const bodyParser = require('../node_modules/body-parser')
 const bancodedados = require('./bancodedados')
 
 app.use(bodyParser.urlencoded({extended: true}))
