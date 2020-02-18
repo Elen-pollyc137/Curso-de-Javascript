@@ -9,8 +9,18 @@
     <div id="primeiro">#primeiro</div>
     <div>Segundo</div>
     <div class="terceiro ultimo">.terceiro .ultimo</div>
-    <script>              
-        // ...
+    <script>
+    document.getElementById('primeiro').classList.add('destaque')            
+    const divs = document.getElementsByTagName('div')
+    Array.from(divs).forEach(e => e.classList.remove('destaque'))
+    const divsArray = [...divs]
+    divsArray.forEach(e => e.classList.add('destaque'))
+
+    const ultimosElements = document.getElementsByClassName('ultimo')
+    for(let e of ultimosElements){
+        e.classList.remove('destaque')
+    }
+    // ...
     </script>
 </body>
 </html>
