@@ -11,8 +11,4 @@ imprimir(3, 4, function (x, y){
     return x - y
 })
 imprimir(3, 4, (x, y) => x * y)
-/*const pessoa = {
-    falar: function (){
-        console.log('opa')
-    }
-}*/
+
